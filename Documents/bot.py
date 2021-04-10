@@ -1,3 +1,11 @@
+#mkdir bots
+#cd bots
+#sudo apt-get install python3-venv
+#python3 -m venv my-project-env
+#source my-project-env/bin/activate
+#pip3 install pyTelegramBotAPI
+#nano bots.py
+#python3 bots.py
 import telebot
 from pyowm import OWM
 from pyowm.utils import config
